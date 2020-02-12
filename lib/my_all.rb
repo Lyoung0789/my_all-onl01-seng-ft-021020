@@ -2,7 +2,7 @@ require 'pry'
 
 def my_all?(collection)
   i = 0 
-  while i<collecion.length
+  while i<collection.length
     yield(collection[i])
     binding.pry
     i+=1
