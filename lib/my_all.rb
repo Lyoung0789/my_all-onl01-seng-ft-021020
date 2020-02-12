@@ -6,4 +6,5 @@ def my_all?(collection)
     yield(collection[i])
     binding.pry
     i+=1
+  end
 end
